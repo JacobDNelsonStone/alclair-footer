@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState } from "react";
 import alclairLogoOutline from "../imgs/alclairLogoOutline.png"
 
 export const FooterAddress = (props) => {
@@ -7,9 +7,16 @@ export const FooterAddress = (props) => {
 
 
   return (
-    <div>
-      <img href={{alclairLogoOutline}} alt="transperent c chaped logo outlined"/>
-      <a class="link-color" href=""></a>
+    <div class="">
+      <img src={alclairLogoOutline} alt="transperent outline of an ear combined with a C chape" />
+      <h4 class="text-color">
+        Alclair HQ
+      </h4>
+      <p>
+        8700 Jefferson Hwy<br/>
+        Osseo, MN 55369<br/>
+        800-933-9899
+      </p>
     </div>
   )
 }
