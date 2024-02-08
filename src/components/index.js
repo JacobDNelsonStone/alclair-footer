@@ -1,2 +1,2 @@
 export {FooterContainer} from "./FooterContainer";
-export {FooterLinks} from "./FooterLinks";
+export {FooterAddress} from "./FooterAddress";
