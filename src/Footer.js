@@ -1,13 +1,14 @@
 import './App.css';
-import { FooterAddress, FooterContainer } from './components';
+import { FooterAddress, FooterContainer, FooterForm } from './components';
 
 export const Footer = (props) => {
 
   return (
-    <div>
-      <FooterContainer>
-        <FooterAddress/>
-      </FooterContainer>
-    </div>
+    <FooterContainer>
+      <FooterAddress />
+      <FooterAddress />
+      <FooterForm />
+    </FooterContainer>
+
   )
 }
