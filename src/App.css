@@ -4,9 +4,9 @@
 
 @import 'tailwindcss/utilities';
 
-footer {
+/* footer {
   font-family: "Open Sans", sans-serif
-}
+} */
 
 .text-color {
   color: white;

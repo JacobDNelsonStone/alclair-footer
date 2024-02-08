@@ -1,5 +1,5 @@
 import './App.css';
-import { FooterAddress, FooterContainer, FooterForm } from './components';
+import { FooterAddress, FooterContainer, FooterForm, FooterSocials } from './components';
 
 export const Footer = (props) => {
 
@@ -7,6 +7,7 @@ export const Footer = (props) => {
     <FooterContainer>
       <FooterAddress />
       <FooterAddress />
+      <FooterSocials />
       <FooterForm />
     </FooterContainer>
 
