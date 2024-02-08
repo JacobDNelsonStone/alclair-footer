@@ -1,11 +1,13 @@
 import './App.css';
-import { FooterContainer } from './components';
+import { FooterContainer, FooterLinks } from './components';
 
 export const Footer = (props) => {
 
   return (
     <div>
-      <FooterContainer/>
+      <FooterContainer>
+        <FooterLinks/>
+      </FooterContainer>
     </div>
   )
 }
